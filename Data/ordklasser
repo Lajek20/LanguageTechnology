@@ -1,0 +1,53 @@
+NUM (talord) feks en, to (talord)1
+ADJ (adjektiv, tillægsord) (adj)1
+NOUN (navneord, substantiv) (sb)1
+PROPN (egennavn, substantiv) (prop)1
+VERB (udsangsord) (vb)1
+ADV  (biord)
+PUNCT (tegn)
+CCONJ (konj)
+SCONJ (konj)
+AUX (hjælpe verber/modalverber)(vb)
+ADP (praep)
+DET (artikel)
+PRON (pron)
+INTJ (lydord)
+PART (konj,infinitivensmarke)
+
+
+
+11 ordklasser (Retskrivningsordbogen)
+===
+substantiv(navneord),   (sb)
+adjektiv(tillægsord),   (adj)
+artikler(kendeord),     (artikel)
+pronomener(stedord),    (pron)
+talord,                 (talord)
+verber(udsagnsord),     (vb)
+adverbier(biord),       (adv)
+konjuntioner(bindeord), (konj)
+præpositioner(forholdsord), (praep)
+udråbsord,              (udraabsord)
+lydord                  (lydord)
+præfiks                 (praefiks)
+egennavn                (prop)
+forkortelser            (fork)
+===
+
+
+Program rækkefølge:
+1. "pron",        PRON
+2. "artikel",     DET
+3. "sb",          NOUN
+4. "vb",          VERB/AUX
+5. "adj",         ADJ
+6. "adv",         ADV
+7. "konj",        CCONJ/SCONJ/PART
+8. "prop",        PROPN
+9. "praep",       ADP
+10."praefiks",    x
+11."talord",      NUM
+12."lydord",      INTJ
+13."udraabsord"   x
+14. "fork"        x
+15. "punktum"     PUNCT
